@@ -43,13 +43,13 @@ The images hints are set up the same way as we do it normally with 3 slides for 
 To build the .exe file, run `pyinstaller quizMaker.spec`.\
 Install pyinstaller with pip if you don't have it.
 
-## Don't rebuild the .spec file. \
+## Don't rebuild the .spec file. 
 I had to fix it based off this solution: \
 https://stackoverflow.com/questions/68099452/is-there-a-way-to-use-pptx-python-with-python-verion-3-7-and-make-exe-with-pyins 
 
 Add these lines at the top: \
-```import sys # added line \
-from os import path # added line \
+```import sys # added line 
+from os import path # added line 
 site_packages = next(p for p in sys.path if 'site-packages' in p) # added line 
 
 Add this to the `datas` array in Analysis: \
