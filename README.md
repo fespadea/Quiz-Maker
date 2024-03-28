@@ -50,7 +50,8 @@ https://stackoverflow.com/questions/68099452/is-there-a-way-to-use-pptx-python-w
 Add these lines at the top: 
 ```import sys # added line
 from os import path # added line 
-site_packages = next(p for p in sys.path if 'site-packages' in p) # added line ```
+site_packages = next(p for p in sys.path if 'site-packages' in p) # added line
+```
 
 Add this to the `datas` array in Analysis: 
 `(path.join(site_packages,"pptx","templates"), "pptx/templates") `
