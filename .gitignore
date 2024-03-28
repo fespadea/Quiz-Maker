@@ -1,6 +1,6 @@
-./quizzes
-./dist
-./build
-./images
+quizzes/
+dist/
+build/
+images/
 quiz.pptx
 quizMaker.exe
