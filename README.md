@@ -28,7 +28,7 @@ The powerpoint will be called "quiz.pptx" and it will be outputted in the same d
 Note that the rules slide may go off the page. This can be fixed by just opening the presentation and typing something into the textbox (you can then remove whatever you typed).\
 This could kind of be done in code, but the way I see to do it has worse results than what the above method provides. Better results would be a bit overly annoying to code unless somebody's already done it somewhere online.
 
-## The result
+## The Result
 The default quiz title is just "Hal Quiz". You can just change this to whatever.\
 If you don't have a title picture, then the title text is black by default. If you do have a title picture, it is white.\
 If you have a title picture, it is fitted to the size of the slide and is put behind the white title.
