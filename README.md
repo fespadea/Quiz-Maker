@@ -1,6 +1,6 @@
 # How to Use
 ## Image Folder
-Create a folder with your images.\
+Create a folder with your images.
 
 Include the type of the image (e.g. Anime Character) in its filename if you want the slide to be labeled.\
 This will also generate a list of the types of images that are in the quiz on the Rules slide.\
