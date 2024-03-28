@@ -13,10 +13,7 @@ from easing_functions import CubicEaseInOut
 import pptx
 from enum import Enum
 
-if len(sys.argv) > 1:
-    quizDirectory = sys.argv[1]
-else:
-    quizDirectory = "./images"
+quizDirectory = "./ExampleQuiz/images" if len(sys.argv) < 2 else sys.argv[1]
 imageDirectory = quizDirectory
 outputDirectory = "./"
 rng = np.random.default_rng()
@@ -287,5 +284,3 @@ else:
 
 # %%
 quiz.save(outputDirectory + "/quiz.pptx")
-
-
